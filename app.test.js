@@ -1,5 +1,5 @@
-const { mean, median, mode, strTonum } = require("./app");
-const ExpressError = require("./expressError");
+const { mean, median, mode } = require("./app");
+
 
 describe("math functions tests", function () {
     let numArray1 = [1, 2, 3, 4, 5]
@@ -26,15 +26,3 @@ describe("math functions tests", function () {
 
 });
 
-// describe("error handling tests", function () {
-//     let numArray3 = [5, 6, 7, 8, 'nine']
-//     let numArray4
-
-//     let testError = strTonum(numArray4)
-
-//     test("error handling", function() {
-//         // expect(strTonum(numArray3)).toThrow('not a number');
-//         expect(testError).toThrow();
-//     })
-
-// });
